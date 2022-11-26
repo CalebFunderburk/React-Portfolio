@@ -2,7 +2,15 @@ import React from 'react'
 
 function Navigation() {
     return (
-        <p>Nav component</p>
+        <nav>
+            <h1 className='text-center'><a href='/'>Caleb Funderburk</a></h1>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </nav>
     )
 }
 
