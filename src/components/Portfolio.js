@@ -1,11 +1,11 @@
 import React from 'react'
-import Project from './Project'
+import ProjectList from './ProjectList'
 
 function Portfolio() {
     return (
-        <section>
-            <h3>Portfolio component</h3>
-            <Project/>
+        <section className='container'>
+            <h5>Portfolio</h5>
+            <ProjectList/>
         </section>
     )
 }

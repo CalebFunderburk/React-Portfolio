@@ -7,9 +7,9 @@ function Footer() {
     return (
         <footer className='text-center'>
             <ul className="list-unstyled d-flex justify-content-evenly fs-3 py-1">
-                <li><a href='https://github.com/CalebFunderburk' target='_blank'><img src={github} alt='Link to Calebs LinkedIn profile' width='200%'/></a></li>
-                <li><a href='https://www.linkedin.com/in/caleb-funderburk-4b6300218/' target='_blank'><img src={linkedin} alt='Link to Calebs GitHub profile' width='200%'/></a></li>
-                <li><a href='https://twitter.com/CaIebTheGrey' target='_blank'><img src={twitter} alt='Link to Calebs Twitter profile' width='200%'/></a></li>
+                <li><a href='https://github.com/CalebFunderburk' target='_blank'><img src={github} alt='GitHub icon' width='200%'/></a></li>
+                <li><a href='https://www.linkedin.com/in/caleb-funderburk-4b6300218/' target='_blank'><img src={linkedin} alt='LinkedIn icon' width='200%'/></a></li>
+                <li><a href='https://twitter.com/CaIebTheGrey' target='_blank'><img src={twitter} alt='Twitter icon' width='200%'/></a></li>
             </ul>
             <p>Built by Caleb Funderburk</p>
         </footer>
