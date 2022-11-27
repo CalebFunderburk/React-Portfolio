@@ -3,10 +3,10 @@ import Project from './Project'
 
 function Portfolio() {
     return (
-        <div>
+        <section>
             <h3>Portfolio component</h3>
             <Project/>
-        </div>
+        </section>
     )
 }
 

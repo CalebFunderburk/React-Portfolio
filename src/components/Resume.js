@@ -2,9 +2,9 @@ import React from 'react'
 
 function Resume() {
     return (
-        <div>
+        <section>
             <p>Resume component</p>
-        </div>
+        </section>
     )
 }
 

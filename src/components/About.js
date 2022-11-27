@@ -3,7 +3,7 @@ import headshot from '../assets/images/headshot.jpg'
 
 function About() {
     return (
-        <div className='container text-center'>
+        <section className='container text-center'>
             <div className='col-10 mx-auto'>
                 {/* Need to handle image sizing when viewed on smaller viewports */}
                 <img src={headshot} alt='A headshot of Caleb Fundeerburk' className='rounded-circle mx-auto d-block py-1' width='10%'/>
@@ -24,7 +24,7 @@ function About() {
                     justo aliquam nisl aliquet blandit.
                 </p>
             </div>
-        </div>
+        </section>
     )
 }
 
