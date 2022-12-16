@@ -2,3 +2,13 @@ a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
 }
+
+
+
+.navActive, .navActive span:hover, .navActive span:focus, .navActive span:active {
+    color: orange;
+    border-bottom: 2px solid orange;
+    cursor: pointer;
+}
+
+/* Need to add navActive class to active nav elements */

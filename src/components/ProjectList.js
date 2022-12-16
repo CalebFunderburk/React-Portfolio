@@ -52,7 +52,7 @@ const ProjectList = () => {
     return (
         <div className='col-10 mx-auto'>
             {projects.map(project => (
-                <div className='card'>
+                <div className='card' key={project.title}>
                     <img src={project.image} alt='A screenshot of Calebs project' className='card-img'/>
                     <div className='container card-img-overlay text-light d-flex align-items-start justify-content-end text-end'>
                         <div className='col-sm-3 bg-dark p-4'>
