@@ -12,10 +12,10 @@ function Header(props) {
     return (
         <>
             <header>
-                <h1 className='text-center'><a href='/'>Caleb Funderburk</a></h1>
-                <ul className=' list-unstyled d-flex justify-content-evenly fs-3 py-1'>
+                <h1 className='text-center py-5'><a href='/'>Caleb Funderburk</a></h1>
+                <ul className=' list-unstyled d-flex justify-content-evenly fs-3 pb-5'>
                 {options.map(option => (
-                    <li className="nav" key={option}>
+                    <li className='navlink' key={option}>
                         <span 
                             onClick={() => setCurrentPage(option)}
                             className={currentPage === option && 'navActive'}

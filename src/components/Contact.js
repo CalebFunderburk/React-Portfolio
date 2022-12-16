@@ -42,7 +42,7 @@ function Contact() {
     return (
         <section className='container text-left'>
             <div className='col-10 mx-auto'>
-                <h3 className='mb-3'>Contact me</h3>
+                <h2 className='mb-3'>Contact me</h2>
                 <form onSubmit={handleSubmit}>
                     <div className='mb-3'>
                         <label htmlFor='name' className='form-label'>Name:</label>

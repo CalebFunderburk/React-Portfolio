@@ -50,22 +50,24 @@ const ProjectList = () => {
     ]
 
     return (
-        <div className='col-10 mx-auto'>
-            {projects.map(project => (
-                <div className='card' key={project.title}>
-                    <img src={project.image} alt='A screenshot of Calebs project' className='card-img'/>
-                    <div className='container card-img-overlay text-light d-flex align-items-start justify-content-end text-end'>
-                        <div className='col-sm-3 bg-dark p-4'>
-                            <p className='card-title'>{project.title}</p>
-                            <a href={project.link} target='_blank' rel='noopener noreferrer' className='card-text'>Visit Site</a>
-                            <br/>
-                            <div className='py-2'>
-                                <a href={project.repo} target='_blank' rel='noopener noreferrer'><img src={github} alt='GitHub icon' width='20%'/></a>
+        <div className='container'>
+            <div className='row row-cols-2'>
+                {projects.map(project => (
+                    <div className='col card border-dark bg-dark pb-4' key={project.title}>
+                        <img src={project.image} alt='A screenshot of Calebs project' className='card-img'/>
+                        <div className='container card-img-overlay text-light d-flex align-items-start justify-content-end text-end'>
+                            <div className='col-sm-3 bg-dark p-4 rounded-1'>
+                                <p className='card-title'>{project.title}</p>
+                                <a href={project.link} target='_blank' rel='noopener noreferrer' className='card-text link'>Visit Site</a>
+                                <br/>
+                                <div className='py-2'>
+                                    <a href={project.repo} target='_blank' rel='noopener noreferrer'><img src={github} alt='GitHub icon' width='20%'/></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            ))}
+                ))}
+            </div>
         </div>
     )
 }
