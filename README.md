@@ -1,5 +1,7 @@
 # React Portfolio
 
+![License badge](https://img.shields.io/badge/license-MIT-blue.svg)
+
 ## Deployed Website
 
 https://calebfunderburk.github.io/ReactPortfolio/
