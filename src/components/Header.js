@@ -11,7 +11,7 @@ function Header(props) {
 
     return (
         <>
-            <header className='backsplash mx-auto col-12'>
+            <header className='backsplash mx-auto col-12 rounded-1 shadow'>
                 <h1 className='text-center py-5'><a href='/'>Caleb Funderburk</a></h1>
                 <ul className='list-unstyled d-flex justify-content-evenly fs-3 pb-5'>
                 {options.map(option => (

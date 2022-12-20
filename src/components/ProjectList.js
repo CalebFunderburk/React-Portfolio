@@ -53,14 +53,14 @@ const ProjectList = () => {
         <div className='row row-cols-2'>
             {projects.map(project => (
                 <div className='col card cardfix pb-4' key={project.title}>
-                    <img src={project.image} alt='A screenshot of Calebs project' className='card-img' />
+                    <img src={project.image} alt="A screenshot of Caleb's project" className='card-img' />
                     <div className='container card-img-overlay text-light d-flex align-items-start justify-content-end text-end'>
                         <div className='col-4 background p-1 rounded-1'>
-                            <p className='card-title text1 projecttext'>{project.title}</p>
+                            <p className='card-title text1 fs-5 font-weight-bold projecttext'>{project.title}</p>
                             <a href={project.link} target='_blank' rel='noopener noreferrer' className='card-text projecttext'>Visit Site</a>
                             <br />
                             <div className='pt-1'>
-                                <a href={project.repo} target='_blank' rel='noopener noreferrer'><img src={github} alt='GitHub icon' width='30%' /></a>
+                                <a href={project.repo} target='_blank' rel='noopener noreferrer'><img src={github} alt='GitHub icon' width='25%' /></a>
                             </div>
                         </div>
                     </div>

@@ -78,6 +78,14 @@ h2, h3 {
     border-color: var(--navy);
 }
 
+.indent {
+    text-indent: 10%;
+}
+
+.revertindent {
+    text-indent: 0%;
+}
+
 @media only screen and (max-width: 776px){
     .projecttext {
         font-size:10px;
