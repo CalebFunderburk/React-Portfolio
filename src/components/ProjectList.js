@@ -46,28 +46,26 @@ const ProjectList = () => {
             repo: 'https://github.com/CalebFunderburk/Vanilla-Portfolio',
             image: vanillaportfolio
         },
-    
+
     ]
 
     return (
-        <div className='container'>
-            <div className='row row-cols-2'>
-                {projects.map(project => (
-                    <div className='col card border-dark bg-dark pb-4' key={project.title}>
-                        <img src={project.image} alt='A screenshot of Calebs project' className='card-img'/>
-                        <div className='container card-img-overlay text-light d-flex align-items-start justify-content-end text-end'>
-                            <div className='col-sm-3 bg-dark p-4 rounded-1'>
-                                <p className='card-title'>{project.title}</p>
-                                <a href={project.link} target='_blank' rel='noopener noreferrer' className='card-text link'>Visit Site</a>
-                                <br/>
-                                <div className='py-2'>
-                                    <a href={project.repo} target='_blank' rel='noopener noreferrer'><img src={github} alt='GitHub icon' width='20%'/></a>
-                                </div>
+        <div className='row row-cols-2'>
+            {projects.map(project => (
+                <div className='col card cardfix pb-4' key={project.title}>
+                    <img src={project.image} alt='A screenshot of Calebs project' className='card-img' />
+                    <div className='container card-img-overlay text-light d-flex align-items-start justify-content-end text-end'>
+                        <div className='col-4 background p-1 rounded-1'>
+                            <p className='card-title text1 projecttext'>{project.title}</p>
+                            <a href={project.link} target='_blank' rel='noopener noreferrer' className='card-text projecttext'>Visit Site</a>
+                            <br />
+                            <div className='pt-1'>
+                                <a href={project.repo} target='_blank' rel='noopener noreferrer'><img src={github} alt='GitHub icon' width='30%' /></a>
                             </div>
                         </div>
                     </div>
-                ))}
-            </div>
+                </div>
+            ))}
         </div>
     )
 }

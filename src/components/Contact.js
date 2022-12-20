@@ -40,7 +40,7 @@ function Contact() {
     }
 
     return (
-        <section className='container text-left'>
+        <section className='container text-left backsplash rounded-1 py-5 shadow-lg'>
             <div className='col-10 mx-auto'>
                 <h2 className='mb-3'>Contact me</h2>
                 <form onSubmit={handleSubmit}>
@@ -64,7 +64,7 @@ function Contact() {
                         </div>
                         )}
                     </div>
-                    <button type='submit' className='btn btn-secondary'>Submit</button>
+                    <button type='submit' className='btn btn-dark'>Submit</button>
                 </form>
             </div>
         </section>

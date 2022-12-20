@@ -3,7 +3,7 @@ import ProjectList from './ProjectList'
 
 function Portfolio() {
     return (
-        <section className='container p-5 backsplash text-light rounded-1'>
+        <section className='col p-5 backsplash rounded-1 shadow-lg'>
             <h2 className='text-center mb-5'>Portfolio</h2>
             <ProjectList/>
         </section>

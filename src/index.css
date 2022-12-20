@@ -6,49 +6,80 @@
     list-style: none;
 }
 
-:root {
-    --background: #cad2c5;
-    --text: #2f3e46;
-    --backsplash: #354f52;
-    --splashtext: #84a98c;
-    --link: #52796f;
-}
-
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
 }
 
+/* Color palette */
+:root {
+    --brown: #5e503f;
+    --tan: #c6ac8f;
+    --offwhite: #eae0d5;
+    --navy: #22333b;
+    --darkness: #0a0908;
+}
+
 /* Custom styles */
+.background {
+    background-color: var(--brown);
+}
+
+.backsplash {
+    background-color: var(--navy);
+}
+
 .navActive, .navActive span:hover, .navActive span:focus, .navActive span:active {
-    color: var(--link);
-    border-bottom: 2px solid var(--link);
+    color: var(--brown);
+    border-bottom: 2px solid var(--brown);
     cursor: pointer;
 }
 
 .navlink span:hover {
     cursor: pointer;
-    color: var(--link);
+    color: var(--brown);
+}
+
+.navlink a:hover {
+    cursor: pointer;
+    color: var(--brown);
 }
 
 .link {
-    color: var(--link)
+    color: var(--offwhite)
 }
 
-.background {
-    background-color: var(--background);
+.headertext {
+    color: var(--brown)
 }
 
-.backsplash {
-    background-color: var(--backsplash);
+.text1 {
+    color: var(--tan);
 }
 
-h1, h4, span, p, a {
-    color: var(--text);
+.text2 {
+    color: var(--navy);
 }
 
-h2, p {
-    color: var(--splashtext);
+.text3 {
+    color: var(--brown);
 }
 
-/* Need to add navActive class to active nav elements */
+h1, h4, span, a, label {
+    color: var(--tan);
+}
+
+h2, h3 {
+    color: var(--tan);
+}
+
+.cardfix {
+    background-color: var(--navy);
+    border-color: var(--navy);
+}
+
+@media only screen and (max-width: 776px){
+    .projecttext {
+        font-size:10px;
+    }
+}

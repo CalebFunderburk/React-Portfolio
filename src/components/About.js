@@ -3,12 +3,12 @@ import headshot from '../assets/images/headshot.jpg'
 
 function About() {
     return (
-        <section className='container text-center py-5'>
-            <div className='col-10 mx-auto backsplash text-light rounded-1 p-4'>
+        <section className='text-center py-5'>
+            <div className='col mx-auto backsplash text-light rounded-1 p-4 shadow-lg'>
                 {/* Need to handle image sizing when viewed on smaller viewports */}
                 <img src={headshot} alt='A headshot of Caleb Funderburk' className='rounded-circle mx-auto d-block py-2 img-fluid' width='15%'/>
                 <h2 className='py-2'>About me</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                <p className='text1'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Fusce quis metus id ante iaculis viverra. Curabitur vitae 
                     ipsum lectus. Praesent tristique felis eget enim pretium 
                     maximus. Vivamus pharetra efficitur arcu vel eleifend. 
