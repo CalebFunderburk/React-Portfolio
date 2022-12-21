@@ -4,7 +4,7 @@
 
 ## Deployed Website
 
-https://CalebFunderburk.github.io/ReactPortfolio/
+https://CalebFunderburk.github.io/React-Portfolio/
 
 ## Description
 
