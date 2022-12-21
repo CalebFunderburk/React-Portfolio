@@ -1,8 +1,8 @@
 {
+  "homepgae": "https://CalebFunderburk.github.io/React-Portfolio/",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepgae": "https://calebfunderburk.github.io/React-Portfolio/",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.2",
