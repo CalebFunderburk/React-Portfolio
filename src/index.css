@@ -86,8 +86,41 @@ h2, h3 {
     text-indent: 0%;
 }
 
-@media only screen and (max-width: 776px){
-    .projecttext {
-        font-size:10px;
+.githublogo {
+    max-width: 40%;
+    min-width: 20%;
+}
+
+@media only screen and (max-width: 991px){
+
+    .projectarticle {
+        display: block;
+        margin: auto;
     }
+
+    .projectarticle p, a, img {
+        text-align: center;
+    }
+
+    .githublogo {
+        display: block;
+        margin: auto;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 575px){
+
+    
+
+}
+
+@media only screen and (max-width: 400px){
+
+    .card-img {
+        visibility: hidden;
+    }
+
 }
