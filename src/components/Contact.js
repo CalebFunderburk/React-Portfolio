@@ -64,7 +64,9 @@ function Contact() {
                         </div>
                         )}
                     </div>
-                    <button type='submit' className='btn btn-dark'>Submit</button>
+                    <div className='text-center'>
+                        <button type='submit' className='btn btn-dark btn-lg'>Submit</button>
+                    </div>
                 </form>
             </div>
         </section>
