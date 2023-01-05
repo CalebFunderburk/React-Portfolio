@@ -17,6 +17,7 @@ The purpose of this project was to provide myself with a platform to showcase my
 - React
 - Bootstrap
 - CSS3
+- EmailJS
 
 ## Screenshot
 
