@@ -41,11 +41,11 @@ function Contact() {
             console.log('Submit Form', formState)
         }
 
-        emailjs.sendForm('service_1uavp69', 'template_cnfk63u', form.current, '_De088KbngfnV2iP4')
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
             .then((result) => {
                 console.log(result.text)
                 e.target.reset()
-                console.log('Success')
+                setErrorMessage('Your message was sent successfully')
             }, (error) => {
                 console.log(error.text)
             })
@@ -75,8 +75,8 @@ function Contact() {
                         <br />
                         <textarea name='message' rows='5' width='20%' defaultValue={message} onBlur={handleChange} className='form-control mb-3' />
                         {errorMessage && (
-                            <div>
-                                <p className='text1'>{errorMessage}</p>
+                            <div className='background rounded-1 text-center'>
+                                <p className='text1 p-1'>{errorMessage}</p>
                             </div>
                         )}
                     </div>
