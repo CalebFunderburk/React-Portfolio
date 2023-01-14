@@ -2,15 +2,23 @@
 
 ![License badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Deployed Website
+## About this App
 
-https://CalebFunderburk.github.io/React-Portfolio/
+### Description
 
-## Description
+The purpose of this project was to provide myself with a platform to showcase my work and experience as a software developer.
 
-The purpose of this project was to provide myself with a platform to showcase my work and experience as a software developer. I decided to use React in order to build a single page application that conditionally renders each section of the website. Bootstrap was used for positioning and sizing, where custom CSS was used to create a custom color palette for the website.
+### User Story
 
-## Built With
+As a potential employer, I would like to be able to view a web developers experience and recent works. When I am on the homepage, I am presented with Caleb's profile and links to his work, as well as ways to contact him.
+
+### Features
+
+* This project used React in order to build a single page application that conditionally renders each section of the website.
+* Bootstrap was used for positioning, sizing, and mobile responsiveness.
+* CSS was used to create a custom color palette for the website.
+
+### Built With
 
 - Express
 - Node.JS
@@ -18,6 +26,16 @@ The purpose of this project was to provide myself with a platform to showcase my
 - Bootstrap
 - CSS3
 - EmailJS
+
+## Deployed Application
+
+<a href="https://CalebFunderburk.github.io/React-Portfolio/" target="_blank">Click here</a> to view this application.
+
+## Installation
+
+This program can be run through a browser using the above link to the deployed application. In order to run this program locally you will need to:
+
+* Clone this repository to receive all the files.
 
 ## Screenshot
 
