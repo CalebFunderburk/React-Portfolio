@@ -57,7 +57,10 @@ function Contact() {
             <div className='col-10 mx-auto'>
                 <h2 className='mb-3'>Contact me</h2>
                 <p className='text1'>
-                    Submitting this form will send me an email
+                    If you would like, you can send me an email at <strong>calebfunderburk@icloud.com</strong>.
+                </p>
+                <p className='text1'>
+                    Submitting this form will also send me an email.
                 </p>
                 <form ref={form} onSubmit={handleSubmit} action="https://formsubmit.co/calebfunderburk@icloud.com" method="POST">
                     <div className='mb-3'>
