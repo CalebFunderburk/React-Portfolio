@@ -13,6 +13,7 @@ function Footer() {
             </ul>
             <h4 className='pt-5'>Built by Caleb Funderburk</h4>
             <h5 className='text1'>calebfunderburk@icloud.com</h5>
+            <a href='https://github.com/CalebFunderburk/React-Portfolio' target='_blank'><span>View this project on GitHub</span></a>
         </footer>
     )
 }
