@@ -73,11 +73,6 @@ h2, h3 {
     color: var(--tan);
 }
 
-.cardfix {
-    background-color: var(--navy);
-    border-color: var(--navy);
-}
-
 .indent {
     text-indent: 10%;
 }
@@ -86,18 +81,34 @@ h2, h3 {
     text-indent: 0%;
 }
 
+.cardfix {
+    background-color: var(--navy);
+    border-color: var(--navy);
+    position: relative;
+}
+
+.projectarticle {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.projectinfo {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
 .githublogo {
-    max-width: 40%;
-    min-width: 20%;
+    width: 45px;
 }
 
 .hover:hover {
     background-color: rgba(13, 13, 13, 0.5);
     transition-duration: .5s;
-}
-
-.projectinfo {
-    display: none;
 }
 
 .hover:hover .projectinfo {
@@ -116,23 +127,31 @@ h2, h3 {
 
 @media only screen and (max-width: 575px){
 
-    
-
-}
-
-@media only screen and (max-width: 400px){
-
     .card-img {
         visibility: hidden;
     }
 
-    .projectarticle p, a, img {
+    .projectarticle p, a {
         text-align: center;
+    }
+
+    .projectarticle {
+        position: static;
+        margin: auto;
     }
 
     .githublogo {
         display: block;
         margin: auto;
+    }
+
+}
+
+@media only screen and (max-width: 430px){
+
+
+    .projectarticle {
+        width: 100%;
     }
 
 }

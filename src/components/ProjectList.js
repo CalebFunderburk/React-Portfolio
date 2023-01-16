@@ -69,15 +69,15 @@ const ProjectList = () => {
     return (
         <div className='row g-0'>
             {projects.map(project => (
-                <div className='col-12 col-lg-6 card cardfix position-relative' key={project.title}>
+                <div className='col-12 col-xxl-6 card cardfix' key={project.title}>
                     <img src={project.image} alt="A screenshot of Caleb's project" className='card-img' />
                     <div className='projectimage container card-img-overlay hover'>
-                        <div className='projectarticle col-sm-4 col-6 background position-absolute top-0 end-0 p-1 rounded-1 text-end'>
+                        <div className='projectarticle col-sm-4 col-8 background p-1 rounded-1 text-end border border-dark'>
                             <p className='card-title text1 fs-5 font-weight-bold projecttext'>{project.title}</p>
                             <a href={project.link} target='_blank' rel='noopener noreferrer' className='card-text projecttext'><p>Visit Site</p></a>
                             <a href={project.repo} target='_blank' rel='noopener noreferrer'><img src={github} alt='GitHub icon' className='githublogo'/></a>
                         </div>
-                        <div className='projectinfo col-8 mx-auto background position-absolute bottom-0 start-50 translate-middle-x p-1 rounded-1 text1 text-center'>
+                        <div className='projectinfo col-8 mx-auto background p-1 rounded-1 text1 text-center border border-dark'>
                             <p>{project.role}</p>
                             <p>{project.desc}</p>
                             <p>{project.tech}</p>
