@@ -11,7 +11,7 @@ a, a:hover, a:focus, a:active {
     color: inherit;
 }
 
-/* Color palette */
+/* Color palette & Defaults */
 :root {
     --brown: #5e503f;
     --tan: #c6ac8f;
@@ -91,23 +91,26 @@ h2, h3 {
     min-width: 20%;
 }
 
+.hover:hover {
+    background-color: rgba(13, 13, 13, 0.5);
+    transition-duration: .5s;
+}
+
+.projectinfo {
+    display: none;
+}
+
+.hover:hover .projectinfo {
+    display: block;
+    transition-duration: .5s;
+}
+
 @media only screen and (max-width: 991px){
 
     .projectarticle {
         display: block;
         margin: auto;
     }
-
-    .projectarticle p, a, img {
-        text-align: center;
-    }
-
-    .githublogo {
-        display: block;
-        margin: auto;
-    }
-
-
 }
 
 
@@ -121,6 +124,15 @@ h2, h3 {
 
     .card-img {
         visibility: hidden;
+    }
+
+    .projectarticle p, a, img {
+        text-align: center;
+    }
+
+    .githublogo {
+        display: block;
+        margin: auto;
     }
 
 }
