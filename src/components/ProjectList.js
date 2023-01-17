@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import github from 'bootstrap-icons/icons/github.svg'
 import picme from '../assets/images/picme-screenshot.png'
 import notetaker from '../assets/images/notetaker-screenshot.png'
