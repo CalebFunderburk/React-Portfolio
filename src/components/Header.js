@@ -28,7 +28,7 @@ function Header(props) {
                         <FaTimes/>
                     </button>
                     {options.map(option => (
-                        <li className='navlink' key={option}>
+                        <li className='navlink' key={option} onClick={toggleNavBar}>
                             <span 
                                 onClick={() => setCurrentPage(option)}
                                 className={currentPage === option && 'navActive'}
