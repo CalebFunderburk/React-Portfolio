@@ -73,9 +73,11 @@ const ProjectList = () => {
                     <img src={project.image} alt="A screenshot of Caleb's project" className='card-img' />
                     <div className='projectimage container card-img-overlay hover'>
                         <div className='projectarticle col-md-3 col-10 background p-1 rounded-1 text-end border border-dark'>
-                            <p className='card-title text1 fs-5 font-weight-bold projecttext'><strong>{project.title}</strong></p>
-                            <a href={project.link} target='_blank' rel='noopener noreferrer' className='card-text projecttext'><p>Visit Site</p></a>
-                            <a href={project.repo} target='_blank' rel='noopener noreferrer'><img src={github} alt='GitHub icon' className='githublogo'/></a>
+                            <p className='card-title text1 font-weight-bold projecttext'><strong>{project.title}</strong></p>
+                            <div className='projecttext_parent'>
+                                <a href={project.link} target='_blank' rel='noopener noreferrer' className='card-text projecttext'><p>Visit Site</p></a>
+                                <a href={project.repo} target='_blank' rel='noopener noreferrer'><img src={github} alt='GitHub icon' className='githublogo'/></a>
+                            </div>
                         </div>
                         <div className='projectinfo col-8 mx-auto background p-1 rounded-1 text1 text-center border border-dark'>
                             <p>{project.role}</p>

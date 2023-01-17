@@ -15,8 +15,8 @@ As a potential employer, I would like to be able to view a web developers experi
 ### Features
 
 * This project used React in order to build a single page application that conditionally renders each section of the website.
-* Bootstrap was used for positioning, sizing, and mobile responsiveness.
-* CSS was used to create a custom color palette for the website.
+* Bootstrap was primarily used for positioning.
+* CSS was used to create a custom color palette for the website and mobile responsiveness.
 
 ### Built With
 

@@ -73,6 +73,10 @@ h2, h3 {
     color: var(--tan);
 }
 
+header h1 {
+    padding: 5%;
+}
+
 .exitnav {
     display: none;
 }
@@ -125,7 +129,7 @@ h2, h3 {
 }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
 
     header .enternav {
         display: inline-block;
@@ -175,9 +179,10 @@ h2, h3 {
         z-index: -1;
     }
 
-    .githublogo {
+    .projecttext_parent {
         display: block;
         margin: auto;
+        text-align: center;
     }
 
     .hover:hover {
@@ -188,4 +193,28 @@ h2, h3 {
         display: none;
     }
 
+}
+
+@media only screen and (max-width: 410px) {
+
+    .projectarticle {
+        width: 100%;
+        text-align: left
+    }
+
+    .projectarticle p {
+        text-align: center;
+    }
+
+    .projecttext_parent {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        text-align: center;
+    }
+
+    .githublogo {
+        width: 35px;
+    }
+    
 }

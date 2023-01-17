@@ -20,8 +20,8 @@ function Header(props) {
 
     return (
         <>
-            <header className='backsplash mx-auto col-12 rounded-1 shadow'>
-                <h1 className='text-center py-5'>Caleb Funderburk</h1>
+            <header className='backsplash mx-auto col-12 rounded-1 shadow mb-3'>
+                <h1 className='text-center'>Caleb Funderburk</h1>
                 <nav className='text-center'>
                     <ul ref={navRef} className='list-unstyled d-flex justify-content-evenly fs-3 pb-5'>
                     <button className='exitnav btn btn-lg btn-dark' onClick={toggleNavBar}>
