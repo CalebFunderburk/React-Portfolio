@@ -25,7 +25,7 @@ const ProjectList = () => {
             repo: 'https://github.com/PuppetAJ/ReactMC',
             image: chunkd,
             role: 'Backend Developer',
-            desc: 'MERN stack Minecraft clone built into a social media platform.',
+            desc: 'MERN stack Minecraft clone.',
             tech: 'React, Express, Node, MongoDB, GraphQL, ThreeJS, JWT, Tailwind, Heroku'
         },
         {
@@ -72,8 +72,8 @@ const ProjectList = () => {
                 <div className='col-12 col-xxl-6 card cardfix' key={project.title}>
                     <img src={project.image} alt="A screenshot of Caleb's project" className='card-img' />
                     <div className='projectimage container card-img-overlay hover'>
-                        <div className='projectarticle col-sm-4 col-8 background p-1 rounded-1 text-end border border-dark'>
-                            <p className='card-title text1 fs-5 font-weight-bold projecttext'>{project.title}</p>
+                        <div className='projectarticle col-md-3 col-10 background p-1 rounded-1 text-end border border-dark'>
+                            <p className='card-title text1 fs-5 font-weight-bold projecttext'><strong>{project.title}</strong></p>
                             <a href={project.link} target='_blank' rel='noopener noreferrer' className='card-text projecttext'><p>Visit Site</p></a>
                             <a href={project.repo} target='_blank' rel='noopener noreferrer'><img src={github} alt='GitHub icon' className='githublogo'/></a>
                         </div>
