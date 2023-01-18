@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.89d8606f.css",
+    "main.js": "/React-Portfolio/static/js/main.1a17c0b8.js",
+    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.47428ef034dd17b9c422.pdf",
+    "static/media/picme-screenshot.png": "/React-Portfolio/static/media/picme-screenshot.52a5a80e515d5b1e5b25.png",
+    "static/media/chunkd-screenshot.png": "/React-Portfolio/static/media/chunkd-screenshot.22571a66b6bbcd649acb.png",
+    "static/media/onthego-screenshot.png": "/React-Portfolio/static/media/onthego-screenshot.bea123d06612c21305d2.png",
+    "static/media/techtalk-screenshot.png": "/React-Portfolio/static/media/techtalk-screenshot.0c3d7e33f7db859c188c.png",
+    "static/media/passwizard-screenshot.png": "/React-Portfolio/static/media/passwizard-screenshot.0419ecfb020caa2120e8.png",
+    "static/media/notetaker-screenshot.png": "/React-Portfolio/static/media/notetaker-screenshot.44cd435c41597a1d4400.png",
+    "index.html": "/React-Portfolio/index.html",
+    "static/media/github.svg": "/React-Portfolio/static/media/github.22e65707326e3e1e37afd21c5334995a.svg",
+    "static/media/linkedin.svg": "/React-Portfolio/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
+    "static/media/twitter.svg": "/React-Portfolio/static/media/twitter.db226d55c343637e1371fc247b144b51.svg",
+    "main.89d8606f.css.map": "/React-Portfolio/static/css/main.89d8606f.css.map",
+    "main.1a17c0b8.js.map": "/React-Portfolio/static/js/main.1a17c0b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89d8606f.css",
+    "static/js/main.1a17c0b8.js"
+  ]
+}
