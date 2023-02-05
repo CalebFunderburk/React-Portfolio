@@ -6,7 +6,7 @@
 
 ### Description
 
-The purpose of this project was to provide myself with a platform to showcase my work and experience as a software developer.
+The purpose of this project was to provide myself with a platform to showcase my work and experience as a Developer.
 
 ### User Story
 
